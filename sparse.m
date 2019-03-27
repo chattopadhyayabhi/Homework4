@@ -6,7 +6,7 @@ X_train = [ones(size(X_train, 1), 1) X_train];
 X_test = [ones(size(X_test, 1), 1) X_test];
 
 %list of regularization parameters
-parameters = [0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1];
+parameters = [0, 0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1];
 
 %initialize number of feature and Area under the curve
 n_feature = zeros(size(parameters));
