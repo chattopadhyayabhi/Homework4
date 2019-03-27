@@ -15,7 +15,7 @@ n = [200, 500, 800, 1000, 1500, 2000];
 
 count = [];
 
-for i = amounts
+for i = n
     weights = mylogistic_train(data(1:i, :), labels(1:i));
     prediction =sigmf( test_data * weights,[1,0]);
     
