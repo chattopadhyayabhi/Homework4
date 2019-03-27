@@ -24,7 +24,7 @@ for i = n
     count = [count, accuracy];
 end
 
-plot(amounts, count, '-d')
+plot(n, count, '-d')
 title(' Accuracy with respect to n')
 xlabel('n')
 ylabel(' accuracy')
